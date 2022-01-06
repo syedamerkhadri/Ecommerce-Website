@@ -22,7 +22,7 @@ export default function CartItem({ cart }) {
 
   return (
     <>
-      <div class="container">
+  
         <div class="pizza-1">
         <div>
                 <img
@@ -49,7 +49,7 @@ export default function CartItem({ cart }) {
             )}
           </div>
         </div>
-      </div>
+
     </>
   );
 }
