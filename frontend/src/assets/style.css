@@ -24,7 +24,7 @@
 .header .cart {
   display: flex;
   width: 20%;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
 }
 
@@ -275,7 +275,7 @@ article .about-us-desp {
 }
 .items .container {
   width: 980px;
-  height: 1200px;
+  /* height: 1200px; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -377,8 +377,8 @@ article .about-us-desp {
   .items .container {
     display: grid;
     row-gap: 12px;
-    margin: 5px 30%;
-    grid-template-columns: 0;
+    margin: 5px 12%;
+    grid-template-columns: 1fr 1fr;
     width: 0;
     height: 100%;
   }
@@ -857,13 +857,15 @@ footer .subtotal button {
 }
 
 .note button {
-  margin-left: 40%;
+  margin-left: 44%;
   font-size: 30px;
   margin-top: 5%;
   background-color: #F43103;
   border-radius: 0%;
   color: white;
   border: 0;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 450px){
