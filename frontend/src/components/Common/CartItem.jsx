@@ -26,7 +26,7 @@ export default function CartItem({ cart }) {
         <div class="pizza-1">
         <div>
                 <img
-                    src={"https://res.cloudinary.com/jithu25sams28/" + cart.item.image}
+                    src={"https://res.cloudinary.com/syedamer92/" + cart.item.image}
                     
                     alt=""
                 />
